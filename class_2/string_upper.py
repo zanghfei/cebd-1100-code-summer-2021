@@ -1,3 +1,5 @@
+# String Functions
+
 name = "      Brendan      "
 
 print(len(name))
