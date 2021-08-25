@@ -20,6 +20,7 @@ for record in sales_records:
     if record[0] == "Europe":
         europe_counter += 1
 
+
     total_sold += int(record[8])
 
     item_types.add(record[2])
@@ -33,3 +34,4 @@ item_types.sort()
 
 for i in item_types:
     print(i)
+
